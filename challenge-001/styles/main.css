@@ -42,3 +42,19 @@ body {
   font-weight: 400;
   font-size: 2rem;
 }
+
+@media screen and (min-width: 601px) {
+  .grid-layout {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+  }
+}
+
+@media screen and (min-width: 993px) {
+  .grid-layout {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 2rem;
+  }
+}
