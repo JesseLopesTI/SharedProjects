@@ -14,11 +14,3 @@
 .project-images img {
   width: 100%;
 }
-
-@media screen and (min-width: 601px) {
-  .grid-layout-projects {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 2rem;
-  }
-}
