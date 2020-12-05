@@ -29,3 +29,29 @@ header {
   letter-spacing: 0.3rem;
   font-weight: 500;
 }
+
+.navigation-menu {
+  display: none;
+}
+
+@media screen and (min-width: 601px) {
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .navigation-menu {
+    display: inline;
+  }
+
+  .navigation-menu ul li {
+    display: inline;
+    margin-left: 2rem;
+    font-size: 1.8rem;
+  }
+
+  .navigation-menu a {
+    color: var(--secondary-darkgrey-color);
+  }
+}
